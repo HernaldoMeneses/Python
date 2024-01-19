@@ -31,6 +31,24 @@ base = '''
     12 - Testes
 
 '''
+
+python_Install = '''
+    Linux
+    MC os
+    Windows
+
+'''
+
+python_Install = '''
+    Hello_World.py
+
+'''
+
+python_org = '''
+    link - (http://python.org/)
+
+'''
+
 print(Head)
 print(why_python)
 print(base)

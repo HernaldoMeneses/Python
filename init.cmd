@@ -6,5 +6,12 @@ rem echo %current_directory%
 rem echo %get_in_directory%
 rem echo %current_directory%/%get_in_directory%/%get_file%
 rem call %current_directory%/%get_in_directory%/%get_file%
-python %current_directory%/%get_in_directory%/%get_file%
+rem python %current_directory%/%get_in_directory%/%get_file%
+set "where=%current_directory%/%get_in_directory%/"
+set "what=%get_file%"
+python %where%%what%
+pause
+set "get_file=hello_world.py"
+set "what=%get_file%"
+python %where%%what%
 pause
