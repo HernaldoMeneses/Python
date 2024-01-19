@@ -25,8 +25,6 @@ base = '''
                 2.1.3 - never spaces
                 2.1.4 - never reserved words and bult in functions names
                 2.1.5 - concisos but descritives
-            2.2 - Strings (1° Tipo)
-                2.2.1 - Conjunto de caracters "" - '' - ' ' '
 
     3 - Listas
     4 - Intrução - If
