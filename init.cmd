@@ -9,6 +9,7 @@ set "where=%current_directory%/%get_in_directory%/"
 set "what=%get_file%"
 
 python %where%%what%
-pause
+
+rem pause
 
 rem 57/592 - Concatenar strings
