@@ -9,6 +9,7 @@
             - 1 Alterando a Exibição da String com métodos 
             - 2 Concatenando Strings
             - 3 Espaços em branco e quebras de linha
+            - 4 Strings com apóstofres
 
 '''
 
@@ -48,5 +49,22 @@ info_sms = '''
 '''
 print(info_sms)
 print(name.title())
-# print("\t" + name.title())
-# print("\t" + stg_concat.title())
+print("\t" + name.title())
+print("\t" + stg_concat.title())
+print("\t" + name.title() + "\n")
+print("\t" + stg_concat.title())
+
+_stg_space = '                     space left'
+stg_space_ = 'space rigth                    '
+_stg_space_ = '       space rigth            '
+
+print(_stg_space)
+print(_stg_space.lstrip())
+print(_stg_space_.rstrip())
+print(_stg_space_.rstrip().lstrip())
+print(_stg_space_.strip())
+
+
+# Tópico 4 - strings com apóstofre
+stg_apostofre = "It's my string"
+print(stg_apostofre)
