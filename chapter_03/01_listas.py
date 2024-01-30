@@ -45,4 +45,4 @@ lista_ = [conceito, exemplo, ordem, especial]
 #print(lista_[0])
 #print(lista_[1])
 #print(lista_[2])
-#print(lista_[3])
+print(lista_[3])

@@ -8,3 +8,4 @@ rem poque o windows não suporta intervalos curtos para agendar task
 python schedule_config.py
 pause
 
+rem 57/592 - Concatenar strings
