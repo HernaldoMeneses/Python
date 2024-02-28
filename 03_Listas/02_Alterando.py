@@ -21,4 +21,21 @@ print(L_Full)
 del L_Full[3]
 print(L_Full)
 
+#   ## pop() - remove o último item de uma lista, mas permite que você trabalhe com o valor do item após remoção
+last = L_Full.pop()
+print(L_Full)
+print(last)
+
+#Reinsert
+L_Full.insert(2,last)
+print(L_Full)
+
+#   ## pop(indice_position)
+last = L_Full.pop(0)
+print(L_Full)
+
+#   ## remove(value) - remove o item de acordo com seu valor
+L_Full = L_Full.remove('i1e2')
+print(L_Full)
+
 print("LineBy_")
